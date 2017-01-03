@@ -1,0 +1,14 @@
+{
+  "name": "data-transport-server",
+  "version": "1.0.0",
+  "description": "POSTリクエストをWebSocketで接続中の別クライアントに転送する",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Takashi Sugimoto",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
+}
